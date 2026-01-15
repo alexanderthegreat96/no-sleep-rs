@@ -1,0 +1,39 @@
+# Added by Cargo
+# ------------------
+# The 'target' directory is where all build artifacts (compiled binaries, 
+# intermediate dependencies) are stored. This can get very large.
+/target
+
+# Development Environment Files
+# ------------------
+# IDE-specific settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project-specific local configuration
+# ------------------
+# If you use environment variables for secrets, keep them out of git
+.env
+.env.local
+
+# Cargo Lock File
+# ------------------
+# For EXECUTABLES (binaries): 
+# It is recommended to COMMIT Cargo.lock to ensure reproducible builds.
+#
+# For LIBRARIES: 
+# It is recommended to IGNORE Cargo.lock to test against the latest 
+# compatible versions of dependencies.
+# If this is a library, uncomment the line below:
+# Cargo.lock
+
+# Documentation
+# ------------------
+# If you generate local documentation using 'cargo doc'
+/doc/
+
+# Backup files
+# ------------------
+**/*.rs.bk
